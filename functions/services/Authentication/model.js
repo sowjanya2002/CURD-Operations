@@ -1,6 +1,6 @@
 const { db, admin } = require("../../utils/admin")
 const {firestore}=require("firebase-admin")
-
+const UTILS=require("./utils")
 
 class Model {
   constructor(user) {
